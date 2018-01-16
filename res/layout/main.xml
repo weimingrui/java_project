@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="50dip"
+        android:onClick="clickUp"
+        android:text="   up   " />
+ <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+       <Button
+           android:id="@+id/left"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:onClick="clickLeft"
+           android:text="  left " />
+
+       <Button
+           android:id="@+id/ok"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:onClick="clickOK"
+           android:text="   ok   " />
+
+       <Button
+           android:id="@+id/right"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:onClick="clickRight"
+           android:text=" right" />
+   </LinearLayout>
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+         android:onClick="clickDown"
+        android:text="down" />
+
+   <LinearLayout
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+   <EditText
+        android:id="@+id/editText1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+    </EditText> 
+	<Button
+        android:id="@+id/IPconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:onClick="clickConnect"
+        android:text="connect" />
+ </LinearLayout>
+
+  
+       
+</LinearLayout>
